@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <header class="header aaa">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
-      <a class="header__link more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
     </header>
-    <main class="main centered-main-page-element">
-      <div id="topSectionForAddingElementToList" class="add-item">
+    <main class="main">
+      <div id="add-item" class="add-item">
         <label class="add-item__label title" for="new-task">Add Item</label>
-        <div class="add-item__box task-row-wrapper">
+        <div class="add-item__box">
           <input id="new-task"class="add-item__input task" type="text">
           <button class="add-item__button button">Add</button>
         </div>
       </div>
       <h3 class="title">Todo</h3>
-      <ul id="incompleteTasks" class="incomplete-tasks">
+      <ul id="incomplete-tasks" class="incomplete-tasks">
         <li class="task-item">
           <input class="task-item__checkbox" type="checkbox">
           <label class="task-item__label task">Pay Bills</label>
@@ -31,7 +31,7 @@
             <img class="button-delete__svg" src="./remove.svg" alt="">
           </button>
         </li>
-        <li class="task-item editMode">
+        <li class="task-item edit-mode">
           <input class="task-item__checkbox" type="checkbox">
           <label class="task-item__label">Go Shopping</label>
           <input class="task-item__input" type="text" value="go shopping" class="task">
