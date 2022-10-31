@@ -134,7 +134,7 @@ input,button {
 }
 
 .task-item__input {
-  width: 226px
+  width: 226px;
 }
 
 .button-delete__svg {
@@ -149,13 +149,13 @@ input,button {
 
 /* Completed */
 .completed-tasks .task-item__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-item__input {
-  display: none
+  display: none;
 }
 
 .task-item.editMode .task-item__input {
