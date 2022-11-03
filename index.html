@@ -13,19 +13,19 @@
       </a>
     </header>
     <main class="main">
-      <section id="add-item" class="add-item">
-        <label class="add-item__label title" for="new-task">Add Item</label>
+      <div id="add-item" class="add-item">
+        <h3 class="add-item__label title">Add Item</h3>
         <div class="add-item__box">
-          <input id="new-task"class="add-item__input task" type="text">
+          <input id="new-task" class="add-item__input task" type="text">
           <button class="add-item__button button">Add</button>
         </div>
-      </section>
+      </div>
       <h3 class="title">Todo</h3>
       <ul id="incomplete-tasks" class="incomplete-tasks">
         <li class="task-item">
           <input class="task-item__checkbox" type="checkbox">
           <label class="task-item__label task">Pay Bills</label>
-          <input class="task-item__input" type="text">
+          <input class="task-item__input task" type="text">
           <button class="task-item__button button button-edit edit">Edit</button>
           <button class="task-item__button button button-delete delete">
             <img class="button-delete__svg" src="./remove.svg" alt="button-delete">
@@ -33,8 +33,8 @@
         </li>
         <li class="task-item edit-mode">
           <input class="task-item__checkbox" type="checkbox">
-          <label class="task-item__label">Go Shopping</label>
-          <input class="task-item__input" type="text" value="go shopping" class="task">
+          <label class="task-item__label task">Go Shopping</label>
+          <input class="task-item__input task" type="text" value="go shopping">
           <button class="task-item__button button button-edit edit">Save</button>
           <button class="task-item__button button button-delete delete">
             <img class="button-delete__svg" src="./remove.svg" alt="button-delete">
@@ -49,7 +49,7 @@
           <input class="task-item__input task" type="text">
           <button class="task-item__button button button-edit edit">Edit</button>
           <button class="task-item__button button button-delete delete">
-            <img class="button-delete__svg" src="./remove.svg" alt="">
+            <img class="button-delete__svg" src="./remove.svg" alt="button-delete">
           </button>
         </li>
       </ul>

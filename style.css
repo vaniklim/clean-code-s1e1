@@ -21,8 +21,8 @@
 }
 
 @media (max-width:768px) {
-    
-  .header {
+
+  .header { 
     text-align: center;
   }
 
@@ -49,7 +49,7 @@ ul {
   padding: 0px;
 }
 
-li, 
+li,
 h3 {
   list-style: none;
 }
@@ -99,7 +99,7 @@ button {
 }
 
 .add-item__input:focus,
-.task-item__input:focus  {
+.task-item__input:focus {
   color: #333;
 }
 
